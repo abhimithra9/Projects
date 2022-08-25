@@ -154,12 +154,8 @@ elif b==9 :
     img_output=cv2.circle(img,(65,210),25,(0,0,0),-1)
 
 
-cv2.imwrite("dotmatrix.jpg",img_output)
+#cv2.imwrite("dotmatrix.jpg",img_output)
 
-
-'''
 plt.imshow(img_output ,cmap='gray')
 plt.axis("off")
 plt.show()
-
-'''
