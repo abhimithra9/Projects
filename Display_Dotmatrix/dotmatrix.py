@@ -70,8 +70,8 @@ elif a==3 :
   
 elif a==4 : 
     img_output=cv2.circle(img,(365,30),25,(0,0,0),-1)
-    img_output=cv2.circle(img,(435,30),25,(0,0,0),-1)
-    img_output=cv2.circle(img,(435,90),25,(0,0,0),-1)
+   # img_output=cv2.circle(img,(435,30),25,(0,0,0),-1)
+   # img_output=cv2.circle(img,(435,90),25,(0,0,0),-1)
     img_output=cv2.circle(img,(295,210),25,(0,0,0),-1)
     img_output=cv2.circle(img,(295,270),25,(0,0,0),-1)
     img_output=cv2.circle(img,(365,270),25,(0,0,0),-1)
@@ -126,8 +126,8 @@ elif b==3 :
   
 elif b==4 : 
     img_output=cv2.circle(img,(135,30),25,(0,0,0),-1)
-    img_output=cv2.circle(img,(205,30),25,(0,0,0),-1)
-    img_output=cv2.circle(img,(205,90),25,(0,0,0),-1)
+  #  img_output=cv2.circle(img,(205,30),25,(0,0,0),-1)
+  #  img_output=cv2.circle(img,(205,90),25,(0,0,0),-1)
     img_output=cv2.circle(img,(65,210),25,(0,0,0),-1)
     img_output=cv2.circle(img,(65,270),25,(0,0,0),-1)
     img_output=cv2.circle(img,(135,270),25,(0,0,0),-1)
